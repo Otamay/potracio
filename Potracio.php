@@ -187,7 +187,7 @@ class Potracio{
     }
   }
 
-  public function bmToPathlist(){
+  private function bmToPathlist(){
     $info = $this->info;
     $bm = &$this->bm;
     $bm1 = clone $bm;
@@ -308,7 +308,7 @@ class Potracio{
     }
   }
 
-  public function processPath() {
+  private function processPath() {
     $info = $this->info;
     
     $mod = function ($a, $n) {
