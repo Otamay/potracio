@@ -164,6 +164,10 @@ class Potracio{
   public function __construct(){
     $this->info = (object) $this->info;
   }
+
+  public function setParameter($data){
+    $this->info = (object) array_merge((array) $this->info, $data);
+  }
   
   public function loadImageFromFile($file){
     $image = imagecreatefromjpeg($file);
