@@ -1,6 +1,6 @@
 <?php
 namespace Potracio;
-/*  Potracio - Port by Otamay (2013) (https://github.com/Otamay/potracio.git)
+/*  Potracio - Port by Otamay (2017) (https://github.com/Otamay/potracio.git)
  * A PHP Port of Potrace (http://potrace.sourceforge.net),
  * ported from https://github.com/kilobtye/potrace. Info below:
  *
@@ -11,11 +11,7 @@ namespace Potracio;
  * Licensed under the GPL
  * 
  * Usage
- *   loadImageFromFile(file) : load image from File API
- *   loadImageFromUrl(url): load image from URL
- *     because of the same-origin policy, can not load image from another domain.
- *     input color/grayscale image is simply converted to binary image. no pre-
- *     process is performed.
+ *   loadImageFromFile(file) : load image from File, JPG for now
  * 
  *   setParameter({para1: value, ...}) : set parameters
  *     parameters:
