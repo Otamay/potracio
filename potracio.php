@@ -323,7 +323,7 @@ class Potrace{
     };
     
     $sign = function ($i) {
-      return $i > 0 ? 1 : $i < 0 ? -1 : 0;
+      return $i > 0 ? 1 : ($i < 0 ? -1 : 0);
     };
     
     $quadform = function ($Q, $w) {
