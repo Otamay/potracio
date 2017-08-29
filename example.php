@@ -1,5 +1,5 @@
 <?php
-require_once Potracio.php';
+require_once 'Potracio.php';
 use Potracio\Potracio as Potracio;
 
 $pot = new Potracio();
